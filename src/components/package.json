@@ -1,6 +1,6 @@
 {
   "name": "vue-bluer",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "vue components",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ccppchen/bluer-vue.git"
+    "url": "git+https://github.com/ccppchen/vue-bluer.git"
   },
   "keywords": [
     "vue",
