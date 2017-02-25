@@ -11,7 +11,7 @@
 </template>
 
 <style lang="scss">
-  @import "src/sass/tobe/function";
+  @import "../sass/tobe/function";
   $btnBaseClass:           bl-button !default; //按钮的基本class
   $inlineBtnClass:         bl-button-inline !default; //行内按钮的基本class
   $outlineBtnClass:        bl-button-outline !default; //outline按钮基本class

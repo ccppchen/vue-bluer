@@ -8,7 +8,7 @@
 </template>
 
 <style lang="scss">
-  @import "src/sass/tobe/function";
+  @import "../sass/tobe/function";
   /* toast */
   .ant-transparent.white-bg{
     background-color: #fff;

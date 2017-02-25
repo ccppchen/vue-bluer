@@ -3,7 +3,7 @@
 import Vue from 'vue'
 import Components from './components/components'
 
-import "sass/comm.scss"
+import "src/components/sass/comm.scss"
 
 // 公共组件 引入
 // import components from './components'

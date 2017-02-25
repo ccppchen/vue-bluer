@@ -13,7 +13,7 @@
 </template>
 
 <style lang="scss">
-  @import "src/sass/tobe/function";
+  @import "../sass/tobe/function";
   $color-text:        #666666 !default;
   $modalDuration:     500ms !default;
   $modalBgColor:      #F8F8F8 !default;

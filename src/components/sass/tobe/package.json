@@ -1,0 +1,11 @@
+{
+  "name": "bl-tobe",
+  "version": "1.0.0",
+  "description": "scss",
+  "main": "_function.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "chenpeng",
+  "license": "ISC"
+}

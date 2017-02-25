@@ -7,7 +7,7 @@
 </template>
 
 <style lang="scss">
-  @import "src/sass/tobe/function";
+  @import "../sass/tobe/function";
   // / <label class="switch switch-red">
   // /   <input type="checkbox" checked="checked">
   // /   <span></span>

@@ -10,7 +10,7 @@
 </template>
 
 <style lang="scss">
-  @import "src/sass/tobe/function";
+  @import "../sass/tobe/function";
   .actionsheet {
     position: fixed;
     background: #e0e0e0;

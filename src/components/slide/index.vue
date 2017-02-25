@@ -75,7 +75,7 @@ export default {
 </script>
 
 <style lang="scss">
-  @import "src/sass/tobe/function";
+  @import "../sass/tobe/function";
   .swiper-container{
     position: relative;
     width: 100%;

@@ -17,7 +17,7 @@
 </template>
 
 <style lang="scss">
-  @import "src/sass/tobe/function";
+  @import "../sass/tobe/function";
   .bl-tab-container-wrap{
     @include display(flex);
   }

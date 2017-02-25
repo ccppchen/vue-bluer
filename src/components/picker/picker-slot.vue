@@ -101,7 +101,7 @@
   import translateUtil from './translate';
   import { once } from 'wind-dom/src/event';
   import { addClass, removeClass } from 'wind-dom/src/class';
-  import emitter from 'src/mixins/emitter';
+  import emitter from './emitter';
 
   var rotateElement = function(element, angle) {
     if (!element) return;

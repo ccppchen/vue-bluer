@@ -150,7 +150,7 @@ export default {
 <style lang="scss">
 /* === Pull To Refresh === */
 
-@import "src/sass/tobe/function";
+@import "../sass/tobe/function";
 @mixin encoded-svg-background($svg) {
   background-image: url("data:image/svg+xml;charset=utf-8,#{$svg}");
 }

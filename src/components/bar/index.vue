@@ -13,7 +13,7 @@
 </template>
 
 <style lang="scss">
-  @import "src/sass/tobe/function";
+  @import "../sass/tobe/function";
   .bar {
     @include user-select(none);
     position: fixed;

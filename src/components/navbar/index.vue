@@ -17,7 +17,7 @@ export default {
 </script>
 
 <style lang="scss">
-  @import "src/sass/tobe/function";
+  @import "../sass/tobe/function";
   .navbar{
     position: relative;
     background: #FAFAFA;

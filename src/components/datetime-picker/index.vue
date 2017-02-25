@@ -54,8 +54,8 @@
 </style>
 
 <script type="text/babel">
-  import picker from 'components/picker/picker';
-  import popup from 'components/popup';
+  import picker from '../picker/picker';
+  import popup from '../popup';
   const FORMAT_MAP = {
     Y: 'year',
     M: 'month',
