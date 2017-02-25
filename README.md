@@ -1,9 +1,9 @@
 ## 安装
 
 ```bash
-npm install bluer-vue --save
+npm install vue-bluer --save
 # 或者
-yarn add bluer-vue
+yarn add vue-bluer
 ```
 
 ## 使用
@@ -11,7 +11,7 @@ yarn add bluer-vue
 导入所以组件
 
 ```js
-import bluerVue from 'bluer-vue'
+import bluerVue from 'vue-bluer'
 
 Vue.use(bluerVue)
 ```
@@ -19,7 +19,7 @@ Vue.use(bluerVue)
 按需引入部分组件
 
 ```js
-import { Toast, Modal, Scroll, Slide, SlideItem } from 'bluer-vue'
+import { Toast, Modal, Scroll, Slide, SlideItem } from 'vue-bluer'
 
 Vue.$toast = Vue.prototype.$toast = Toast;
 Vue.$modal = Vue.prototype.$modal = Modal;
@@ -28,7 +28,6 @@ Vue.component(`Bl${Scroll.name}`, Scroll);
 Vue.component(`Bl${Slide.name}`, Slide);
 Vue.component(`Bl${SlideItem.name}`, SlideItem);
 ```
-
 
 ### JS Components
 
