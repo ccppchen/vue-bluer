@@ -8,7 +8,7 @@ yarn add vue-bluer
 
 ## 使用
 
-导入所以组件
+导入全部组件
 
 ```js
 import bluerVue from 'vue-bluer'
