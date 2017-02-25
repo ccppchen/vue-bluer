@@ -1,0 +1,119 @@
+@font-face {
+	font-family: "blfont";
+	src: url('./blfont.ttf') format('truetype');
+}
+
+.iconfont {
+	font-family: "blfont";
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	/* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+	text-decoration: none;
+	text-transform: none;
+	line-height: normal;
+	text-rendering: auto;
+}
+
+
+.arrow-back:before {
+	content: "\E001";
+}
+
+.attention:before {
+	content: "\E002";
+}
+
+.class:before {
+	content: "\E003";
+}
+
+.close:before {
+	content: "\E004";
+}
+
+.detail-kf:before {
+	content: "\E005";
+}
+
+.empty-list:before {
+	content: "\E006";
+}
+
+.error:before {
+	content: "\E007";
+}
+
+.ihome:before {
+	content: "\E008";
+}
+
+.isearch:before {
+	content: "\E009";
+}
+
+.iuser:before {
+	content: "\E00A";
+}
+
+.leave-message:before {
+	content: "\E00B";
+}
+
+.lock:before {
+	content: "\E00C";
+}
+
+.more-v:before {
+	content: "\E00D";
+}
+
+.pbook:before {
+	content: "\E00E";
+}
+
+.pgift:before {
+	content: "\E00F";
+}
+
+.phome:before {
+	content: "\E010";
+}
+
+.prompt:before {
+	content: "\E011";
+}
+
+.search:before {
+	content: "\E012";
+}
+
+.shop-car:before {
+	content: "\E013";
+}
+
+.tab-class:before {
+	content: "\E014";
+}
+
+.tab-index:before {
+	content: "\E015";
+}
+
+.tab-indexactive:before {
+	content: "\E016";
+}
+
+.tab-shop:before {
+	content: "\E017";
+}
+
+.tab-user:before {
+	content: "\E018";
+}
+
+.yt:before {
+	content: "\E019";
+}

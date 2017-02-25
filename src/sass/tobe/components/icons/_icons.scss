@@ -1,0 +1,66 @@
+// icons
+.icons {
+  margin: rem(36) 0;
+  ul{
+    background-color: #fff;
+    clear: both;
+    margin: 0px;
+    list-style: none;
+    padding: 0px;
+    li{
+      @include hair(bottom, #ececec);
+      min-height: rem(180);
+      .icons-leftImg{
+        float: left;
+        width: rem(180);
+        height: rem(180);
+        background-size: rem(180);
+        padding:rem(30) 0 rem(30) rem(60);
+      }
+      .icons-rightFonts{
+        padding-left: rem(210);
+        padding-top: rem(44);
+        min-height: rem(180);
+        .icons-title{
+          font-size: rem(36);
+          color: #222222;
+          line-height: rem(36);
+          padding-bottom: rem(24);
+        }
+        .icons-explain{
+          font-size: rem(24);
+          color: #999999;
+          line-height: rem(24);
+        }
+      }
+    }
+  }
+  .floor{
+    margin-top:rem(62);
+    padding:0 rem(30);
+    .floor-icons{
+      width: rem(40);
+      height: rem(40);
+      display: inline-block;
+      margin-right:rem(20);
+    }
+    .icons-1{
+      background-size: rem(40) rem(40);
+    }
+    .icons-2{
+      background-size: rem(40) rem(40);
+    }
+    .icons-3{
+      background-size: rem(40) rem(40);
+    }
+    .icons-4{
+      background-size: rem(28) rem(28);
+    }
+    .icons-5{
+      background-size: rem(38) rem(26);
+    }
+    .icons-6{
+      background-size: rem(38) rem(18);
+    }
+  }
+}

@@ -1,0 +1,149 @@
+$color-text:        #222222 !default;
+$modalDuration:     500ms !default;
+$modalBgColor:      #ffffff !default;
+$modalButonColor:   #222222 !default;
+$modalButonBg:      #ffffff !default;
+$borderColor:       #D9D9D9 !default;
+$modalButtonHeight: rem(88) !default;
+.modal {
+    width: rem(540);
+    max-height: rem(1024);
+    position: fixed;
+    z-index: 11000;
+    left: 50%;
+    margin-left: rem(-270);
+    margin-top: 0;
+    overflow: hidden;
+    top: 50%;
+    text-align: center;
+    border-radius: 3px;
+    opacity: 0;
+    @include transform(translate(0,-50%)!important);
+    @include transition-property(opacity);
+    color: $color-text;
+    display: none;
+    &.modal-in {
+        opacity: 1;
+        @include transition-duration($modalDuration);
+        display: block;
+    }
+    &.modal-out {
+        opacity: 0;
+        z-index: 11000-1;
+        @include transition-duration($modalDuration);
+    }
+}
+.modal-close{
+    position: absolute;
+    z-index: 3;
+    right: rem(26);
+    top: rem(26);
+    background: transparent inline-image("base64/modal-close.png") no-repeat center center;
+    background-size: contain;
+    width: rem(30);
+    height: rem(30);
+}
+.modal-inner {
+    padding: rem(30);
+    @include hairline(bottom, $borderColor);
+    border-radius: 3px 3px 0 0;
+    position: relative;
+    background: $modalBgColor;
+    min-height: rem(180);
+}
+.modal-title {
+    font-weight: 500;
+    font-size: rem(32);
+    text-align: center;
+    color: #222222;
+    &.hairline{
+        @include hairline(bottom, $borderColor);
+        position: relative;
+        padding-bottom: rem(20);
+        &:after{
+            left: rem(-30);
+            right: rem(-30);
+            width: auto;
+        }
+    }
+    +.modal-text {
+        margin: 0;
+        padding-top: rem(10);
+        font-size: rem(28);
+        color: #aaaaaa;
+        text-align: left;
+    }
+}
+.modal-text {
+    margin-top: rem(10);
+    font-size: rem(32);
+    color: #aaaaaa;
+    margin: rem(30) 0;
+    max-height: rem(488);
+    overflow-y: auto;
+}
+.modal-buttons {
+    height: rem(88);
+    overflow: hidden;
+    @include display(flex);
+    &.modal-buttons-vertical {
+        display: block;
+        height: auto;
+    }
+}
+.modal-button {
+    width: 100%;
+    padding: 0 rem(10);
+    height: $modalButtonHeight;
+    font-size: rem(32);
+    border: 0;
+    text-align: center;
+    color: $modalButonColor;
+    background: $modalButonBg;
+    position: relative;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    cursor: pointer;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    @extend %comm-flex;
+    @include justify-content(center);
+    @include hairline(right, $borderColor);
+    @include flex(1);
+    &:first-child {
+        border-radius: 0 0 0 3px;
+    }
+    &:last-child {
+        background-image: none;
+        border-radius: 0 0 3px 0;
+        // color: #E6143C;
+    }
+    &:first-child:last-child {
+        border-radius: 0 0 3px 3px;
+        background-origin: padding-box;
+        color: $modalButonColor;
+        @include hairline-remove(right);
+    }
+    &.modal-button-bold {
+        font-weight: bold;
+    }
+    .modal-buttons-vertical & {
+        background-image: none;
+        @include hair(bottom, $borderColor);
+        border-radius: 0;
+        &:last-child {
+            border-radius: 0 0 3px 3px;
+            background-image: none;
+        }
+    }
+}
+.modal-no-buttons {
+    .modal-inner {
+        border-radius: 3px;;
+        background-image: none;
+    }
+    .modal-buttons {
+        display: none;
+    }
+}

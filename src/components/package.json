@@ -1,0 +1,15 @@
+{
+  "name": "bluer-vue",
+  "version": "1.1.2",
+  "description": "vue components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vue",
+    "bluer"
+  ],
+  "author": "chenpeng",
+  "license": "ISC"
+}
