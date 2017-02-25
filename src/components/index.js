@@ -12,8 +12,9 @@ import Scroll from './scroll'
 import Popup from './popup'
 import Picker from './picker/picker'
 import DatetimePicker from './datetime-picker'
-import Toast from './toast/toast'
+import Toast from './toast'
 import Modal from './modal/modal'
+import ModalJs from './modal'
 import Slide from './slide'
 import SlideItem from './slide/slide-item'
 
@@ -32,13 +33,12 @@ const install = function(Vue) {
   Vue.component('bl' + Popup.name, Popup);
   Vue.component('bl' + Picker.name, Picker);
   Vue.component('bl' + DatetimePicker.name, DatetimePicker);
-  Vue.component('bl' + Toast.name, Toast);
   Vue.component('bl' + Modal.name, Modal);
   Vue.component('bl' + Slide.name, Slide);
   Vue.component('bl' + SlideItem.name, SlideItem);
 
   Vue.$toast = Vue.prototype.$toast = Toast;
-  Vue.$modal = Vue.prototype.$modal = Modal;
+  Vue.$modal = Vue.prototype.$modal = ModalJs;
 }
 
 // auto install
@@ -46,8 +46,7 @@ if (typeof window !== 'undefined' && window.Vue) {
   install(window.Vue);
 };
 
-export default {
-  install,
+export {
   Bar,
   Loading,
   Button,
@@ -66,3 +65,5 @@ export default {
   Slide,
   SlideItem
 }
+
+export default install

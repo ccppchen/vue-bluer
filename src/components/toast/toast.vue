@@ -57,7 +57,7 @@
 <script>
 export default {
 
-  name: 'toast',
+  name: 'Toast',
 
   data () {
     return {

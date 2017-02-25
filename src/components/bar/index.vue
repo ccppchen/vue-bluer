@@ -116,7 +116,7 @@
 <script lang="babel">
 
   export default {
-    name: 'bar',
+    name: 'Bar',
     props: {
       barStyle: {
         type: String

@@ -9,7 +9,7 @@
 <script>
 export default {
 
-  name: 'tab-item',
+  name: 'TabItem',
 
   props: ['id']
 };

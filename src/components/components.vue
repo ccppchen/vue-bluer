@@ -39,11 +39,11 @@
         <bl-button type="other" size="middle" @click="modal">modal</bl-button>
       </div>
       <br>
-      <bl-slide effect="left">
-        <bl-slide-item className="half">
+      <bl-slide effect="left" v-model="isSlide">
+        <bl-slide-item>
           <a href="javascript:;"><img _src="http://placeholder.qiniudn.com/750x375" alt=""></a>
         </bl-slide-item>
-        <bl-slide-item className="half">
+        <bl-slide-item>
           <a href="javascript:;"><img _src="http://placeholder.qiniudn.com/750x375" alt=""></a>
         </bl-slide-item>
       </bl-slide>
@@ -139,6 +139,7 @@ export default {
 
   data() {
     return {
+      isSlide: false,
       buttons: [{
         text: '取消',
         onClick: () => {

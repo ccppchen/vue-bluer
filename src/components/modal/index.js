@@ -8,6 +8,7 @@ ModalConstructor.prototype.close = function() {
 };
 
 let Modal = (options = {}) => {
+  this.name = 'Modal'
   let instance = new ModalConstructor({
     el: document.createElement('div')
   })

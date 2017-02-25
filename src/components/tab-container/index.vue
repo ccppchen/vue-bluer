@@ -48,7 +48,7 @@ import arrayFindIndex from 'array-find-index';
  * </mt-tab-container>
  */
 export default {
-  name: 'tab-container',
+  name: 'TabContainer',
 
   props: {
     value: {},

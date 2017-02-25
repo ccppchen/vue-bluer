@@ -66,9 +66,7 @@
 
 <script type="text/babel">
   export default {
-    name: 'picker',
-
-    componentName: 'picker',
+    name: 'Picker',
 
     props: {
       slots: {

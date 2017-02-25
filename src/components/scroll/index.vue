@@ -35,7 +35,7 @@
 
 <script>
 export default {
-  name: 'scroll',
+  name: 'Scroll',
   props: {
     offset: {
       type: Number,
@@ -231,7 +231,6 @@ $layerHeight: 2.2*0.4rem;
   position: absolute;
   top: -$layerHeight;
   width: 100%;
-  height: 100%;
   left: 0;
   transition-duration: 300ms;
   &.postop{

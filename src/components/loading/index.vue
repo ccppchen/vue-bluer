@@ -40,7 +40,7 @@
 <script>
 import utils from 'src/utils'
 export default {
-  name: 'loading',
+  name: 'Loading',
   props: {
     complete: { // 是否加载完成
       type: Boolean,

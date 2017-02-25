@@ -11,7 +11,7 @@
   import 'vue-popup/lib/popup.css';
 
   export default {
-    name: 'popup',
+    name: 'Popup',
 
     mixins: [Popup],
 

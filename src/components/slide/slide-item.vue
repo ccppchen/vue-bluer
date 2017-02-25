@@ -6,6 +6,6 @@
 <script>
 export default {
 
-  name: 'slide-item'
+  name: 'SlideItem'
 };
 </script>

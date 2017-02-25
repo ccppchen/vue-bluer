@@ -13,7 +13,7 @@
 import TouchSlide from './TouchSlide'
 export default {
 
-  name: 'slide',
+  name: 'Slide',
 
   data () {
     return {
@@ -42,6 +42,9 @@ export default {
     }
   },
   mounted() {
+    if (!this.value) {
+      this.reInitPages()
+    }
   },
   watch: {
     value(loading) {

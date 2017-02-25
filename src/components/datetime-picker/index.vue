@@ -65,7 +65,7 @@
   };
 
   export default {
-    name: 'datetime-picker',
+    name: 'DatetimePicker',
 
     props: {
       cancelText: {

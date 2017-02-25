@@ -8,7 +8,7 @@
 
 <script>
 export default {
-  name: 'tab-container-item',
+  name: 'TabContainerItem',
 
   props: ['id']
 };

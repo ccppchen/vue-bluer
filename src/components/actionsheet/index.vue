@@ -58,7 +58,7 @@
   import 'vue-popup/lib/popup.css';
 
   export default {
-    name: 'actionsheet',
+    name: 'Actionsheet',
 
     mixins: [Popup],
 

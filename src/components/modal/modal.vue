@@ -209,7 +209,7 @@
 
 <script>
 export default {
-  name: 'modal',
+  name: 'Modal',
   data () {
     return {
       halfHeight: '',
